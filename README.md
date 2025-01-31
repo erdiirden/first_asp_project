@@ -18,7 +18,17 @@ user ->> client ->> request(ip || domain) --> hosting --> response --> client --
 * Post: giriş yapma, ekleme yapma vs.
 * Put: güncelleme yapma
 * Patch: local güncelleme yapma (ufak değişikliklerde tercih edilir)
-* Delet: silme işlemleri
+* Delete: silme işlemleri
 
 ![Ekran görüntüsü 2025-01-29 180846](https://github.com/user-attachments/assets/8d612a6e-5fab-4de1-af0d-d486b2c486e2)
 
+## Frontend Fonksiyonları
+* Uygulamanın önyüzü, grafiksel arayüzüdür.
+* Backendde üretilen veri frontendde yollanır ve uygun şekilde kullanıcıya sunulur.
+* Kullandığı Teknolojiler; ***Angular, React, Javascript, HTML, CSS, Vue.js, Bootstrap***
+
+## Backend Fonksiyonları
+* Verileri işler.
+* Algoritmasal kodların yazıldığı alandır.
+* Veritabanı işlemleri bu alanda gerçekleştirilir.
+* Kullandığı Teknolojiler; ***Node.js, PHP, Java, Python, C#(.NET - ASP.NET CORE), C, C++, Ruby vb.***
