@@ -32,3 +32,18 @@ user ->> client ->> request(ip || domain) --> hosting --> response --> client --
 * Algoritmasal kodların yazıldığı alandır.
 * Veritabanı işlemleri bu alanda gerçekleştirilir.
 * Kullandığı Teknolojiler; ***Node.js, PHP, Java, Python, C#(.NET - ASP.NET CORE), C, C++, Ruby vb.***
+
+## MVC Yaklaşımı
+* Tasarım desenidir
+* ASP.NET bu tasarım üzerine üzerine oturtturulmuş bir mimaridir.
+
+## API 
+* Web üzerinde çalışan backend.
+* ***Herhangi bir client i (mikrafon, tablet, telefon, tv, matkap vb.) API ye bağlayıp internetten yönetilebilir yada farklı nesnelerle iletişim kurabilir hale getirebilirsiniz.***
+* API farklı alanlarda kullanılır, web de kullanıyorsak ***Web API*** ismini veriyoruz.
+* Web'de çalışabilen ve web uygulamaları, işletim sistemleri, veritabanları, donanımlar yahut yazılım kütüphaneleri ile iletişim kurabilen bir ***arayüzdür***
+* Bir web uygulaması backend de API ile verilerini üretebilir.
+* Genellikle web tabanlı uygulamalarda ***client*** ve ***server*** arasında iletişimi sağlayan bir sözleşme olarak kullanılmaktadır.
+
+![Ekran görüntüsü 2025-01-31 225654](https://github.com/user-attachments/assets/b3e2e699-47fe-43ee-bbf1-acc9a3de383c)
+
