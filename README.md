@@ -1,8 +1,10 @@
 # NOTLAR
 
 ## Mimariler
-* .Net Framework Windows desteklidir, masaüstü uygulamalarına uygun.
-* .Net Core çoklu işletim sistemi destekli, web uygulamalarına da uygun.
+* .Net Framework, sadece Windows desteklidir, masaüstü uygulamalarına uygun.
+* .Net Core, çoklu işletim sistemi destekli, web uygulamalarına da uygun.
+* ASP.Net ikisiyle de çalışır fakat farklı işletim sistemlerinde çalışması için .Net Core (günümüzde .Net olarak geçiyor)  üzerinden çalışacağız.
+* Web geliştirmede ***C# + ASP.NET CORE + SQL SERVER*** üçlüsü ile çalışılması uygundur.
   
 ![Ekran görüntüsü 2025-01-29 172935](https://github.com/user-attachments/assets/026db42b-8027-4dc7-9a43-b13fe80822d6)
 
