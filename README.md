@@ -49,3 +49,17 @@ user ->> client ->> request(ip || domain) --> hosting --> response --> client --
 
 ![Ekran görüntüsü 2025-01-31 225654](https://github.com/user-attachments/assets/b3e2e699-47fe-43ee-bbf1-acc9a3de383c)
 
+## Asp.NET Core MVC Pipeline
+Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması olarak düşünebiliriz. Veri ve tasarım girdiğinde ise model ve view katmanını kullanır.
+
+* ***Model: İşlenecek verilerin katmanıdır. Veritabanı işlemleri bu katmanda yapılır.***
+* ***View: İstek neticesinde verilerin görselleştiri, düzenlenmesidir. Html, Css, js, resim, müzik, video gibi.***
+* ***Controller: Client ile gelen isteğe cevap verir. Veri işlemi gerekiyorsa Model'e istek atar, Model istenileni geri yollar. Aynı şekilde tasarım/çıktı düzenlemesi gerekiyorsa bu veri View e atılır, View düzenleme sonrası tekrar Controller a yollar. En son client request ine response atılır.***
+
+![Ekran görüntüsü 2025-02-03 140619](https://github.com/user-attachments/assets/002e264f-ae78-4d28-98e0-4e4505277bfd)
+
+
+
+
+
+
