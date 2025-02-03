@@ -53,7 +53,7 @@ user ->> client ->> request(ip || domain) --> hosting --> response --> client --
 Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması olarak düşünebiliriz. Veri ve tasarım girdiğinde ise model ve view katmanını kullanır.
 
 * ***Model: İşlenecek verilerin katmanıdır. Veritabanı işlemleri bu katmanda yapılır.***
-* ***View: İstek neticesinde verilerin görselleştiri, düzenlenmesidir. Html, Css, js, resim, müzik, video gibi.***
+* ***View: İstek neticesinde verilerin görselleştiri, düzenlenmesidir. Html, Css, js, Razor(cshtml yani cs+html), resim, müzik, video gibi.***
 * ***Controller: Client ile gelen isteğe cevap verir. Veri işlemi gerekiyorsa Model'e istek atar, Model istenileni geri yollar. Aynı şekilde tasarım/çıktı düzenlemesi gerekiyorsa bu veri View e atılır, View düzenleme sonrası tekrar Controller a yollar. En son client request ine response atılır.***
 
 ![Ekran görüntüsü 2025-02-03 140619](https://github.com/user-attachments/assets/002e264f-ae78-4d28-98e0-4e4505277bfd)
