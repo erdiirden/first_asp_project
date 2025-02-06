@@ -60,11 +60,11 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ## View'e İle Data'dan İlk Veri Gönderimi
 
-**Controllers > ProductController.cs**
+***Controllers > ProductController.cs***
 
 ![Ekran görüntüsü 2025-02-06 193545](https://github.com/user-attachments/assets/8f10b82c-5fcb-43b1-8694-3bbbbdb22c7e)
 
-**Views > Index.cshtml**
+***Views > Index.cshtml***
 
 ![Ekran görüntüsü 2025-02-06 193713](https://github.com/user-attachments/assets/ec36cf60-4a1e-4ff4-a377-12c2449d8b3b)
 
