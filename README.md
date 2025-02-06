@@ -60,13 +60,14 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ## View'e İle Data'dan İlk Veri Gönderimi
 
-***Controllers > ProductController.cs***
+* Model Bazlı Veri Gönderimi (dynamic)
+* ViewBag (unboxing)
+* ViewData (unboxing)
+* TempData (unboxing)
 
-![Ekran görüntüsü 2025-02-06 193545](https://github.com/user-attachments/assets/8f10b82c-5fcb-43b1-8694-3bbbbdb22c7e)
 
-***Views > Index.cshtml***
+![Ekran görüntüsü 2025-02-07 003149](https://github.com/user-attachments/assets/7060f881-4311-4717-86bf-54ca2b2b2f33)
 
-![Ekran görüntüsü 2025-02-06 193713](https://github.com/user-attachments/assets/ec36cf60-4a1e-4ff4-a377-12c2449d8b3b)
 
 
 
