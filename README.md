@@ -58,6 +58,19 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ![Ekran görüntüsü 2025-02-03 140619](https://github.com/user-attachments/assets/002e264f-ae78-4d28-98e0-4e4505277bfd)
 
+## View'e İle Data'dan İlk Veri Gönderimi
+
+**Controllers > ProductController.cs**
+
+![Ekran görüntüsü 2025-02-06 193545](https://github.com/user-attachments/assets/8f10b82c-5fcb-43b1-8694-3bbbbdb22c7e)
+
+**Views > Index.cshtml**
+
+![Ekran görüntüsü 2025-02-06 193713](https://github.com/user-attachments/assets/ec36cf60-4a1e-4ff4-a377-12c2449d8b3b)
+
+
+
+
 
 
 
