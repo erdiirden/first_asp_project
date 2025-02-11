@@ -1,0 +1,40 @@
+﻿@* @model List<firstAspProejct.Models.Products> //veri yakalama
+<h3>Model Bazlı Veri Gönderimi</h3>
+<ul>
+	@foreach(var product in Model) //veri yakalanırken kullanılan isimi model=Model
+	{
+		<li>
+			@product.ProductName
+		</li>
+	}
+</ul> *@
+
+<h3>ViewBag</h3>
+<ul>
+	@foreach (var product in ViewBag.products as List<firstAspProejct.Models.Product>)
+	{
+		<li>
+			@product.ProductName
+		</li>
+	}
+</ul>
+
+<h3>ViewData</h3> 
+<ul>
+	@foreach (var product in ViewData["products"] as List<firstAspProejct.Models.Product>)
+	{
+		<li>
+			@product.ProductName
+		</li>
+	}
+</ul>
+
+<h3>TempData</h3> 
+<ul>
+	@foreach (var product in TempData["products"] as List<firstAspProejct.Models.Product>)
+	{
+		<li>
+			@product.ProductName
+		</li>
+	}
+</ul>

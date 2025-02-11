@@ -4,17 +4,17 @@ namespace firstAspProejct.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Page()
         {
             return View();
         }
 
-        public IActionResult Index2()
+        public IActionResult Page2()
         {
             return View();
         }
 
-        public IActionResult Index3()
+        public IActionResult Page3()
         {
             return View();
         }

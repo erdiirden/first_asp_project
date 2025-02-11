@@ -1,1 +1,10 @@
-﻿<h3>Tüm Ürünler</h3>
+﻿@* @model firstAspProejct.Models.ViewsModels.UserProcuct
+
+<h3>@Model.Product.ProductName</h3>
+<h3>@Model.User.Name</h3> *@
+
+ @model (firstAspProejct.Models.Product p, firstAspProejct.Models.User u)
+
+
+<h3>@Model.p.ProductName</h3>
+<h3>@Model.u.Name</h3>
