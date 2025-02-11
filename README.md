@@ -58,6 +58,20 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ![Ekran görüntüsü 2025-02-03 140619](https://github.com/user-attachments/assets/002e264f-ae78-4d28-98e0-4e4505277bfd)
 
+## View'e İle Data'dan İlk Veri Gönderimi
+
+* Model Bazlı Veri Gönderimi (dynamic)
+* ViewBag (unboxing)
+* ViewData (unboxing)
+* TempData (unboxing)
+
+
+![Ekran görüntüsü 2025-02-07 003149](https://github.com/user-attachments/assets/7060f881-4311-4717-86bf-54ca2b2b2f33)
+
+
+
+
+
 
 
 
