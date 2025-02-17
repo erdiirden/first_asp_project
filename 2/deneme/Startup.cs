@@ -51,6 +51,8 @@ namespace deneme
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("CustomRoute", "{controller=Home}/{action=Index}/{a}/{b}/{id]}");
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }
