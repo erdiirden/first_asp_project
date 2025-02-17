@@ -4,21 +4,20 @@ using System.Linq;
 
 namespace deneme.Controllers
 {
+    public class AjaxData
+    {
+        public string A { get; set; }
+        public string B { get; set; }
+    }
     public class ProductController : Controller
     {
         public IActionResult CreateProduct()
         {
             return View();
         }
-        //[HttpPost]
-        //public IActionResult VeriAl(IFormCollection datas)
-        //{
-        //    var value1 = datas["txtValue1"].ToString();
-        //    var value2 = datas["txtValue2"].ToString();
-        //    var value3 = datas["txtValue3"].ToString();
-        //    return View();
-        //}
-        public IActionResult veriAl()
+
+        [HttpPost]
+        public IActionResult veriAl(AjaxData ajaxData)
         {
             var headers=Request.Headers.ToList();
             return View();

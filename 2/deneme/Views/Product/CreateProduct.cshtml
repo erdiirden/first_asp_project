@@ -1,9 +1,14 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 
-<form asp-action="VeriAl" asp-controller="Product" method="post">
-	<input type="text" name="txtValue1" />	<br />
-	<input type="text" name="txtValue2" />	<br />
-	<input type="text" name="txtValue3" />	<br />
-	<button>Gönder</button>
-</form>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+<button id="btnGonder">Gönder</button>
+
+<script>
+
+	$("#btnGonder").click(() =>{
+		$.post("https://localhost:5001/product/verial",{a: "a data", b:"b data"});
+	});
+
+</script>
