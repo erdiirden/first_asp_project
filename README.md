@@ -68,6 +68,11 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ![Ekran görüntüsü 2025-02-07 003149](https://github.com/user-attachments/assets/7060f881-4311-4717-86bf-54ca2b2b2f33)
 
+## Kullanıcıdan Gelen Verilerin Doğrulanması Validations
+
+![Ekran görüntüsü 2025-02-18 225505](https://github.com/user-attachments/assets/b67ee17f-96da-4973-a29b-12a6eb8dce84)
+
+
 
 
 
