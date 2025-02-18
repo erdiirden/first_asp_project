@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace deneme.Controllers
 {  
@@ -13,12 +15,20 @@ namespace deneme.Controllers
         }
         public IActionResult CreateProduct()
         {
-            var tuple = (new Product(), new User());
-            return View(tuple);
+            return View();
         }
         [HttpPost]
-        public IActionResult CreateProduct([Bind(Prefix ="Item1")]Product product, [Bind(Prefix = "Item2")] User user)
+        public IActionResult CreateProduct(Product model)
         {
+            //doğrulamaları (validations) if else switch ile if(model.length<100) gibi yapma 
+            //ModelState: MVC'de bir type ın data annotationslarının durumunu kontrol eden ve geriye sonuç döndüren property
+
+            if (!ModelState.IsValid) {
+
+                var messages = ModelState.ToList();
+                return View(model);
+            }
+            //işleme/operasyona/algoritmaya tabi tutulur.
             return View();
         }
 
