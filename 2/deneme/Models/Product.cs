@@ -1,10 +1,10 @@
-﻿using deneme.Models.ModelMetaDataTypes;
+﻿//using deneme.Models.ModelMetaDataTypes;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
 namespace deneme.Models
 {
-    [ModelMetadataType(typeof(ProductMetaData))]
+    //[ModelMetadataType(typeof(ProductMetaData))]
     public class Product
     {
         public string ProductName { get; set; }
