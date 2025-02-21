@@ -30,6 +30,8 @@ namespace deneme
             services.AddValidatorsFromAssemblyContaining<Startup>();
             services.AddFluentValidationAutoValidation();
             services.AddFluentValidationClientsideAdapters();
+
+            services.AddControllersWithViews(); //hata sonrasý eklenen satýr
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +51,7 @@ namespace deneme
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

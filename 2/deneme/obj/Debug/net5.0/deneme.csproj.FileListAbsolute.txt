@@ -114,3 +114,8 @@ C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\runtimes\win-arm64\li
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\deneme.csproj.AssemblyReference.cache
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Product\CreateProduct.cshtml.g.cs
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Product\GetProduct.cshtml.g.cs
+C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\libman.json
+C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\deneme.MvcApplicationPartsAssemblyInfo.cs
