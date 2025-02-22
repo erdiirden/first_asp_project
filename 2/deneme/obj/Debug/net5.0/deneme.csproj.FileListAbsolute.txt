@@ -122,3 +122,4 @@ C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\deneme.MvcApplication
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Sayfa1.cshtml.g.cs
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Sayfa2.cshtml.g.cs
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
