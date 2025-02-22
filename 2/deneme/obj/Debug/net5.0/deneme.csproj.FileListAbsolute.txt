@@ -119,3 +119,6 @@ C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\erdir\source\repos\deneme\deneme\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\deneme.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Sayfa1.cshtml.g.cs
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Sayfa2.cshtml.g.cs
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
