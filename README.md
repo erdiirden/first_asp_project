@@ -74,7 +74,7 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ## Modüler Tasarım
 
-Her bölüm için ayrı ayrı cshtml oluşturulur. _Layout.cshtml ile gerekli olanlar çağrılarak (referans ederek) bir sayfa oluşturulur. Sayfa değişikliklerinde, yer değiştirmelerde referanslar değiştirilerek çok daha dinamik bir yapı elde ederiz.
+Her bölüm için ayrı ayrı cshtml oluşturulur. Sayfa cshtml dosyasında kullanılacaklar çağrılarak (referans ederek) bir sayfa oluşturulur. Sayfa değişikliklerinde, yer değiştirmelerde referanslar değiştirilerek çok daha dinamik bir yapı elde ederiz.
 - PartialView ve ViewComponent şeklinde 2 yolla yapılabilir.
 
 ![Ekran görüntüsü 2025-03-02 030003](https://github.com/user-attachments/assets/ee3ac008-0498-48dc-80a5-f1b21d164e15)
