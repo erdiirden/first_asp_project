@@ -72,6 +72,11 @@ Controller beyin gibidir. Veri ve tasarım istenmediğinde Console uygulaması o
 
 ![Ekran görüntüsü 2025-02-18 225505](https://github.com/user-attachments/assets/b67ee17f-96da-4973-a29b-12a6eb8dce84)
 
+## Modüler Tasarım
+
+![Ekran görüntüsü 2025-03-02 030003](https://github.com/user-attachments/assets/ee3ac008-0498-48dc-80a5-f1b21d164e15)
+
+
 
 
 
