@@ -79,8 +79,11 @@ Her bölüm için ayrı ayrı cshtml oluşturulur. Sayfa cshtml dosyasında kull
 
 ![Ekran görüntüsü 2025-03-02 030003](https://github.com/user-attachments/assets/ee3ac008-0498-48dc-80a5-f1b21d164e15)
 
-***PartialView Nedir?***
-___Modüler tasarımda her bir modülün ayrı bir .cshtml/parca olarak tasarlanmasını ve ihtiyaç doğrultusunda ilgili parçanın çağırılıp kullanılmasını sağlayan bir yöntemdir...___
+***PartialView ve ViewComponent Farkı***
+
+![Ekran görüntüsü 2025-03-04 013727](https://github.com/user-attachments/assets/1b213672-02cf-4c67-bbdc-5870eeb94874)
+
+
 
 
 
