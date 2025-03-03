@@ -14,6 +14,12 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\erdir\source\repos\deneme\deneme\Views\_ViewImports.cshtml"
+using deneme
+
+#nullable disable
+    ;
+#nullable restore
+#line 4 "C:\Users\erdir\source\repos\deneme\deneme\Views\_ViewImports.cshtml"
 using deneme.Models
 
 #line default
@@ -21,7 +27,7 @@ using deneme.Models
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"f7c90f7bbef622c445f2974a7950868efa576a333798d10c226401b8f5350b86", @"/Views/Home/Partials/_HeaderPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"fcad8f2fb575b140a5b44f77ee6ed991ffea50e3dede64a20a7c919b5790c2e8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"2b18912e8e0526066b2e536ff755ce9187c7242306975a463ca855ecd16ffb02", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Home_Partials__HeaderPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

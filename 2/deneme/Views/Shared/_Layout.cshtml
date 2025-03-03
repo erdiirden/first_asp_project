@@ -21,10 +21,13 @@
         <partial name="~/Views/Home/Partials/_SideBarPartial.cshtml" />
         <div class="context">
             @RenderBody()
+            @await Component.InvokeAsync("Person")  @* ViewComponent buraya eklendi *@
         </div>
+
     </div>
 
     <partial name="~/Views/Home/Partials/_FooterPartial.cshtml" />
 
+    
 </body>
 </html>

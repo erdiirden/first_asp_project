@@ -125,3 +125,5 @@ C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\_ViewImpo
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Partials\_HeaderPartial.cshtml.g.cs
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Partials\_SidebarPartial.cshtml.g.cs
 C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\Partials\_FooterPartial.cshtml.g.cs
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Shared\Components\Person\Default.cshtml.g.cs
+C:\Users\erdir\source\repos\deneme\deneme\obj\Debug\net5.0\Razor\Views\Home\_Components\Person\Default.cshtml.g.cs
