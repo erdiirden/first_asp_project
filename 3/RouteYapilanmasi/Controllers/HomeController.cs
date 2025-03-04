@@ -9,6 +9,8 @@ using RouteYapilanmasi.Models;
 
 namespace RouteYapilanmasi.Controllers
 {
+    //[Route("sekme/[action]")]  = bu sayede home yerine sekme yazabiliyoruz.
+    [Route("[controller]/[action]")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

@@ -49,14 +49,14 @@ namespace RouteYapilanmasi
             app.UseEndpoints(endpoints =>
             {
                 //istediðimiz þekilde aþaðýdaki gibi özelleþtirebiliriz
-                endpoints.MapControllerRoute("Default3", "{controller=Home}/{action=Index}/{id:int?}/{x:length(3)?}/{y:int:maxlength(3)?}");
+                //endpoints.MapControllerRoute("Default3", "{controller=Home}/{action=Index}/{id:int?}/{x:length(3)?}/{y:int:maxlength(3)?}");
                 //endpoints.MapControllerRoute("Default2", "Anasayfa", new {controller="Home", action="Index"});
                 //endpoints.MapControllerRoute("Default", "{controller=Personel}/{action=Index}");
                 //endpoints.MapControllerRoute("Default", "{action}/ahmet/{controller}");
                 //endpoints.MapControllerRoute("Default", "{action}/{controller}");
+                //endpoints.MapDefaultControllerRoute();
 
-
-                endpoints.MapDefaultControllerRoute();
+                endpoints.MapControllers();
             });
         }
     }
