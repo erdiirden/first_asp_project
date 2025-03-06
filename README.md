@@ -83,7 +83,14 @@ Her bölüm için ayrı ayrı cshtml oluşturulur. Sayfa cshtml dosyasında kull
 
 ![Ekran görüntüsü 2025-03-04 013727](https://github.com/user-attachments/assets/1b213672-02cf-4c67-bbdc-5870eeb94874)
 
+## Middleware
 
+![Ekran görüntüsü 2025-03-07 021903](https://github.com/user-attachments/assets/1a085451-6feb-4ca0-a2ec-ee598dbb678b)
+
+
+* Request ile Response arasında çalışır.
+* Configure metodu içerisinde middleware ler çağırılır. ASP Net Core mimarisinde tüm middleware ler "use" adı ile başlar.
+* Middleware lerde tetiklenme sırası önemlidir.
 
 
 
