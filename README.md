@@ -97,10 +97,31 @@ Her bölüm için ayrı ayrı cshtml oluşturulur. Sayfa cshtml dosyasında kull
 
     ![Ekran görüntüsü 2025-03-07 031821](https://github.com/user-attachments/assets/ce80a500-32ca-4eb4-9bd3-462bec0e8560)
     
+```
+// RUN MİDDLEWAR'İ
+app.Run(async context =>
+{
+    Console.WriteLine("run MİDDLEWAR tetiklendi");
+});
+// RUN MİDDLEWARE SONRASIN ÇALIŞMIYOR.
+```
 
-  * Use
-  * Map
-  * MapWhen
+  * Use : Run metoduna nazaran, devreye girdikten sonra süreçte sıradaki middleware i çağırmakta ve normal middleware işlevi bittikten sonra geriye dönüp devam edebilen bir yapıya sahiptir.
+
+```
+//USE MİDDLEWAR'İ 
+app.Use(async (context, next) =>
+{
+    Console.WriteLine("use MİDDLEWAR  tetiklendi");
+    next.Invoke();
+    Console.WriteLine("STOP use MİDDLEWAR");
+});
+// SONRAKİ MİDDLEWAR'İ TETİKLİYOR (NEXT İNVOKE SAYESİNDE)
+```
+
+  * Map : Bazen middleware'i talep gönderen path'e göre filtrelemek isteyebiliriz. Bunun için Use yada Run fonksiyonlarında if kontrolü sağlayabilir yahut Map metodu ile daha profesyonel işlem yapabiliriz.
+  
+  * MapWhen : Map metodu ile sadece request'in yapıldığı path'e göre filtreleme yapılırken, MapWhen metodu ile gelen request'in herhangi bir özelliğine göre bir filtreleme işlemi gerçekleştirilebilir.
 
 
 
