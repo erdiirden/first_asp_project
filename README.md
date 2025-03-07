@@ -92,6 +92,16 @@ Her bölüm için ayrı ayrı cshtml oluşturulur. Sayfa cshtml dosyasında kull
 * Configure metodu içerisinde middleware ler çağırılır. ASP Net Core mimarisinde tüm middleware ler "use" adı ile başlar.
 * Middleware lerde tetiklenme sırası önemlidir.
 
+  #### Hazır Middleware'ler
+  * Run : Kendisinden sonra gelen middleware i tetiklemez. Akış kesmek için kullanılabilir (bu etkiye kısa devre denir)
+
+    ![Ekran görüntüsü 2025-03-07 031821](https://github.com/user-attachments/assets/ce80a500-32ca-4eb4-9bd3-462bec0e8560)
+    
+
+  * Use
+  * Map
+  * MapWhen
+
 
 
 
