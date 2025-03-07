@@ -42,10 +42,21 @@ namespace Middleware
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+
+            //USE MÝDDLEWAR'Ý
+            app.Use(async (context, next) =>
+            {
+                Console.WriteLine("use MÝDDLEWAR  tetiklendi");
+                next.Invoke();
+                Console.WriteLine("STOP use MÝDDLEWAR");
+            });
+            // SONRAKÝ MÝDDLEWAR'Ý TETÝKLÝYOR (NEXT ÝNVOKE SAYESÝNDE)
+
+
             // RUN MÝDDLEWAR'Ý
             app.Run(async context =>
             {
-                Console.WriteLine("run tetiklendi");
+                Console.WriteLine("run MÝDDLEWAR tetiklendi");
             });
             // RUN MÝDDLEWARE SONRASIN ÇALIÞMIYOR.
 
