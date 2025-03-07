@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Middleware.Extensions;
 
 namespace Middleware
 {
@@ -43,6 +44,9 @@ namespace Middleware
             app.UseStaticFiles();
 
 
+            app.UseHello(); //CUSTOM MÝDDLEWAR'Ý
+
+
             //USE MÝDDLEWAR'Ý
             app.Use(async (context, next) =>
             {
@@ -59,6 +63,8 @@ namespace Middleware
                 Console.WriteLine("run MÝDDLEWAR tetiklendi");
             });
             // RUN MÝDDLEWARE SONRASIN ÇALIÞMIYOR.
+
+            
 
             app.UseRouting();
 
