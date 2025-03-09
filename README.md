@@ -123,12 +123,22 @@ app.Use(async (context, next) =>
   
   * MapWhen : Map metodu ile sadece request'in yapıldığı path'e göre filtreleme yapılırken, MapWhen metodu ile gelen request'in herhangi bir özelliğine göre bir filtreleme işlemi gerçekleştirilebilir.
 
+## Dependency Injection - IoC Yapılanması
+
+Bağımlılık olmadan iletişim kurulabilinen tasarım kalıbına Dependency Injection denir. Farklı sınıflardan nesne türetirken "new" anahtar sözlüğü ile ***türetmez***.
+
+* ***BAĞIMLI OLARAK İLETİŞİM (KLASİK)***
+
+![Ekran görüntüsü 2025-03-10 022040__](https://github.com/user-attachments/assets/bc5b36d8-c97f-4067-9abc-2a41d5551c41)
 
 
+* ***DEPENDENCY INJECTION İLE İLETİŞİM***
 
+![Ekran görüntüsü 2025-03-10 022040](https://github.com/user-attachments/assets/d5486b45-5796-4866-9c34-1b9c4de47cc6)
 
+* ***IoC Yapılanması*** sayesinde Dependency Injection da kullanarak bütün taşıtlar ana taşıtlar konteynırına atılabilir ve isteğe göre taşıt üretilebilir.
 
-
+![Ekran görüntüsü 2025-03-10 024140](https://github.com/user-attachments/assets/60588359-b5c7-4908-8fc2-15f3b0f7714b)
 
 
 
