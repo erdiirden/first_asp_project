@@ -140,11 +140,20 @@ Bağımlılık olmadan iletişim kurulabilinen tasarım kalıbına Dependency In
 
 ![Ekran görüntüsü 2025-03-10 024140](https://github.com/user-attachments/assets/60588359-b5c7-4908-8fc2-15f3b0f7714b)
 
-  ## Area
+## Area
 
   Özel yetkiler için kullanılabilir. Kendine özel Model, View, Controller ları olur.
 
   ![Adsız](https://github.com/user-attachments/assets/000bf4dc-a1a9-409f-b2c6-94a2205623c6)
+
+## ViewModel Nedir?
+
+* Senaryo 1: Backend'deki verilerin tamamını View a yollamaktansa arasından gerekli veirleri seçerek sadece istenen verileri yollamak.
+* Senaryo 2: Backend'deki birden fazla veriyi aynı gruba alarak tek seferde view'a yollamak.
+
+![Ekran görüntüsü 2025-03-16 005104](https://github.com/user-attachments/assets/419ac812-f38d-413c-9ffc-150d9d1d60d5)
+
+![Ekran görüntüsü 2025-03-16 005407](https://github.com/user-attachments/assets/37274a02-dcc0-4c22-a88e-ae600add078e)
 
 
 
